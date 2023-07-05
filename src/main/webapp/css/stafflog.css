@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   
+}
+body{
+	background-image: url('../images/staffback.jpg');
+}
+
+.container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+}
+
+.container .content{
+   text-align: center;
+}
+
+.container .content h3{
+   font-size: 30px;
+   color:#333;
+}
+
+.container .content h3 span{
+   background: rgb(6, 207, 6);
+   color:#fff;
+   border-radius: 5px;
+   padding:0 15px;
+}
+
+.container .content h1{
+   font-size: 50px;
+   color:#333;
+}
+
+.container .content h1 span{
+   color: green;
+}
+
+.container .content p{
+   font-size: 25px;
+   margin-bottom: 20px;
+}
+
+.container .content .btn{
+   display: inline-block;
+   padding:10px 30px;
+   font-size: 20px;
+   background: #333;
+   color:#fff;
+   margin:0 5px;
+   text-transform: capitalize;
+}
+
+.container .content .btn:hover{
+   background: green;
+}
+
+.form-container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+   content: '';
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+  
+ }
+
+.form-container form{
+   padding:20px;
+   border-radius: 5px;
+   box-shadow: 0 5px 10px rgba(0,0,0,.1);
+   background: #fff;
+   text-align: center;
+   width: 500px;
+}
+
+.form-container form h3{
+   font-size: 30px;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+   color:#333;
+}
+
+.form-container form input,
+.form-container form select{
+   width: 100%;
+   padding:10px 15px;
+   font-size: 17px;
+   margin:8px 0;
+   background: #eee;
+   border-radius: 5px;
+}
+
+.form-container form select option{
+   background: #fff;
+}
+
+.form-container form .form-btn{
+   background: greenyellow;
+   color: #333;
+   text-transform: capitalize;
+   font-size: 20px;
+   cursor: pointer;
+   margin-top: 30px;
+}
+
+.form-container form .form-btn:hover{
+   background: green;
+   color:#fff;
+}
+
+.form-container form p{
+   margin-top: 30px;
+   font-size: 15px;
+   color:#333;
+   text-align: justify;
+}
+
+.form-container form p a{
+   color: #333;
+}
+
+.form-container form .error-msg{
+   margin:10px 0;
+   display: block;
+   background: green;
+   color:#fff;
+   border-radius: 5px;
+   font-size: 20px;
+   padding:10px;
+}
+
+
+/*Line seperator*/
+.seperator{
+   float: left;
+   width: 100%;
+   border-top: 1px solid #ccc;
+   text-align: center;
+   margin: 40px 0 0;
+}
+
+.seperator b{
+   width: 40px;
+   height: 40px;
+   font-size: 16px;
+   text-align: center;
+   line-height: 40px; 
+   background: #fff;
+   display: inline-block;
+   border: 1px solid #e0e0e0;
+   border-radius: 50%;
+   position: relative;
+   top: -22px;
+   z-index: 1;
+}
+
+.manbtn{
+  background: #333;
+  border: none;
+  color: white;
+  padding: 10px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  cursor: pointer;
+  border-radius: 50%;
+}
